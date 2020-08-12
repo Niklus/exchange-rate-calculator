@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Exchange Rate Calculator">
+    <meta name="apple-mobile-web-app-title" content="Exchange Rate Calculator">
+    <meta name="theme-color" content="#5fbaa7">
+    <meta name="msapplication-navbutton-color" content="#5fbaa7">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/index.html">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="128x128" href="/img/touch/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="/img/touch/icon-128x128.png">
+    <link rel="icon" sizes="192x192" href="/img/touch/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/img/touch/icon-192x192.png">
+    <link rel="icon" sizes="256x256" href="/img/touch/icon-256x256.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/img/touch/icon-256x256.png">
+    <link rel="icon" sizes="384x384" href="/img/touch/icon-384x384.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="/img/touch/icon-384x384.png">
+    <link rel="icon" sizes="512x512" href="/img/touch/icon-512x512.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/img/touch/icon-512x512.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Exchange Rate Calculator</title>
+  </head>
+  <body>
+    
+    <!--Network Check-->
+    <script src="./js/networkCheck.js"></script>
+
+    <img src="img/money.png" alt="" class="money-img" />
+    <h1>Exchange Rate Calculator</h1>
+    <p>You are currently offline, you need to be online to use this app</p>
+    <button class="btn"onclick="window.location.reload()">Refresh</button>
+  </body>
+</html>

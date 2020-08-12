@@ -33,7 +33,22 @@ p {
   border-radius: 5px;
   font-size: 12px;
   padding: 5px 12px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0.3rem rgba(54, 54, 54, 0.65);
+  font-size: 20px;
 }
+
+.btn:hover {
+  filter: brightness(110%);
+}
+
+.btn:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+
 
 .money-img {
   width: 150px;
@@ -65,6 +80,8 @@ p {
   background: transparent;
   font-size: 30px;
   text-align: right;
+  border-bottom: solid 0.1px rgb(87, 84, 84, 0.3);
+  margin-left: 5px;
 }
 
 .swap-rate-container {
@@ -75,8 +92,9 @@ p {
 
 .rate {
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 15px;
   padding: 0 10px;
+  font-weight: bolder;
 }
 
 select:focus,
@@ -85,8 +103,17 @@ button:focus {
   outline: 0;
 }
 
+
+.banner {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .currency input {
     width: 200px;
+  }
+
+  h1 {
+    font-size: 20px;
   }
 }
