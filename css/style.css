@@ -73,13 +73,30 @@ p {
   background-repeat: no-repeat;
 }
 
+#currency-one {
+  font-weight: bold;
+}
+
+#currency-two {
+  font-weight: bold;
+}
+
+.notification {
+  font-weight: bold;
+}
+
 .currency input {
   border: 0;
   background: transparent;
   font-size: 30px;
   text-align: right;
-  border-bottom: solid 0.1px rgb(87, 84, 84, 0.3);
   margin-left: 5px;
+}
+
+#amount-one {
+  background: #fff;
+  border-radius: 10px;
+  border: solid #94D794 0.5px;
 }
 
 .swap-rate-container {
